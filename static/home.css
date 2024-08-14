@@ -1,0 +1,99 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001d7e;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative; /* Make sure the body is relative to position the button */
+}
+
+/* Styling for the logout container */
+.logout-container {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+/* Styling for the logout button */
+.logout-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #ff4d4d; /* Red background color */
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the logout button */
+.logout-button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+/* Styling for the main heading */
+h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Styling for the form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align form elements */
+    background-color: #020950;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 40px;
+    border-style: solid;
+    border-color: aqua;
+}
+
+/* Styling for labels */
+label {
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    align-self: flex-start; /* Align labels to the start */
+}
+
+/* Styling for input fields */
+input[type="text"],
+input[type="tel"] {
+    width: 100%; /* Ensure inputs take up full width */
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Styling for the submit button */
+button[type="submit"] {
+    padding: 1rem 2rem;
+    background-color: #6f15d6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    align-self: center; /* Center the submit button */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+button[type="submit"]:hover {
+    background-color: #450989;
+    border-style: solid;
+    border-color: aqua;
+}

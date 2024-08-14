@@ -1,0 +1,63 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001d7e;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Styling for the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    width: 100%;
+    padding: 2rem;
+    background-color: #020950;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-color: aqua;
+}
+
+/* Styling for the general response message */
+.response {
+    text-align: center;
+    font-size: 1.6rem;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+/* Styling for the patient ID and name */
+.patient-id {
+    font-size: 4rem; /* Larger font size for patient ID */
+    font-weight: bold;
+    color: #00ffcc; /* Light cyan color for contrast */
+}
+
+/* Styling for the "Next Patient" button */
+.next-patient-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #6f15d6;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 2rem; /* Space above the button */
+}
+
+/* Hover effect for the "Next Patient" button */
+.next-patient-button:hover {
+    background-color: #450989;
+    border-style: solid;
+    border-color: aqua;
+}

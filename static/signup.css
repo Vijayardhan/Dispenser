@@ -1,0 +1,83 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001d7e;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Styling for the main heading */
+h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Styling for the form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #020950;
+    padding: 2.5rem; /* Increased padding for a larger container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Set a maximum width for better control */
+    width: 100%; /* Ensure responsiveness */
+    border-style: solid;
+    border-color: aqua;
+}
+
+/* Styling for input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 1rem; /* Increased padding for larger input fields */
+    margin: 0.75rem 0; /* Slightly increased margin */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem; /* Slightly increased font size */
+}
+
+/* Styling for the submit button */
+button[type="submit"] {
+    padding: 1rem 2rem; /* Increased padding for a larger button */
+    margin-top: 1.5rem; /* Slightly increased margin */
+    background-color: #6f00ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem; /* Slightly increased font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+button[type="submit"]:hover {
+    background-color: #360691;
+    border-style: solid;
+    border-color: aqua;
+}
+
+/* Styling for the signin link */
+p {
+    margin-top: 1.5rem; /* Slightly increased margin */
+    font-size: 1.1rem; /* Slightly increased font size */
+    color: #ffffff;
+}
+
+a {
+    color: #3657ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for the signin link */
+a:hover {
+    color: #1dcaff;
+}
